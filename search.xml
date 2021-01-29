@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>White主题主页title改为今日诗词</title>
+      <link href="/2020/07/28/whitediy/"/>
+      <url>/2020/07/28/whitediy/</url>
+      
+        <content type="html"><![CDATA[<p>主题源库：<a href="https://github.com/FuShaoLei/hexo-theme-white">点击进入</a></p><p>DIY前提：自己已经搭建完成。</p><h2 id="一、修改title："><a href="#一、修改title：" class="headerlink" title="一、修改title："></a>一、修改title：</h2><p>将主题_config.yml中：</p><pre><code># 自我介绍intro:  title: Hi.I&#39;m White.</code></pre><p>改为：</p><pre><code># 自我介绍intro:  title: &#39;&lt;p id=&quot;jinrishici-sentence&quot;&gt;获取中...&lt;/p&gt;&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&#39;</code></pre><h2 id="二、修改引用"><a href="#二、修改引用" class="headerlink" title="二、修改引用"></a>二、修改引用</h2><p>位置：themes/white/layout/_partial/mode-home.ejs</p><p>将：</p><pre><code>&lt;div class=&quot;intro-title animate__animated  animate__fadeInUp&quot;&gt;&lt;%=theme.intro.title%&gt;&lt;/div&gt;&lt;div class=&quot;intro-sub animate__animated  animate__fadeInUp&quot;&gt;&lt;%- markdown(theme.intro.sub) %&gt;&lt;/div&gt;</code></pre><p>改为：</p><pre><code>&lt;div class=&quot;intro-title animate__animated  animate__fadeInUp&quot;&gt;&lt;%- markdown(theme.intro.title) %&gt;&lt;/div&gt;&lt;div class=&quot;intro-sub animate__animated  animate__fadeInUp&quot;&gt;&lt;%- markdown(theme.intro.sub) %&gt;&lt;/div&gt;</code></pre><h2 id="三：美化title（可选）"><a href="#三：美化title（可选）" class="headerlink" title="三：美化title（可选）"></a>三：美化title（可选）</h2><p>因为有些诗词句子太长会变成两行。</p><p>有两个修改办法：</p><h3 id="1、修改主题宽度。"><a href="#1、修改主题宽度。" class="headerlink" title="1、修改主题宽度。"></a>1、修改主题宽度。</h3><p>将主题_config.yml中：</p><pre><code>style:  layout:    max-width: &quot;1125px&quot; #最大宽度</code></pre><p>按你自己想法修改（可能影响美观）。</p><h3 id="2、修改title字体大小"><a href="#2、修改title字体大小" class="headerlink" title="2、修改title字体大小"></a>2、修改title字体大小</h3><p>位置：themes/white/source/css/_page/layout.styl中：</p><pre><code>.intro-title   font-family Gothic  font-size 3em #修改此处即为字体大小  font-weight 1000  margin 0  padding 0</code></pre><h3 id="3、修改主题布局"><a href="#3、修改主题布局" class="headerlink" title="3、修改主题布局"></a>3、修改主题布局</h3><p>位置：themes/white/source/css/_page/layout.styl</p><pre><code>/* home */.intro-content   margin-top 150px  width 70% #修改此处，本人为90%</code></pre><p>按你自己想法修改，这三个办法可以综合使用。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>审计-随笔</title>
+      <link href="/2020/07/09/shenji/"/>
+      <url>/2020/07/09/shenji/</url>
+      
+        <content type="html"><![CDATA[<a id="more"></a><h2 id="审计业务的要素："><a href="#审计业务的要素：" class="headerlink" title="审计业务的要素："></a>审计业务的要素：</h2><p> 1.审计业务的三方关系人<br> 2.财务报表<br> 3.财务报表的编制基础<br> 4.审计证据<br> 5.审计报告</p><h2 id="认定"><a href="#认定" class="headerlink" title="认定"></a>认定</h2><p>        <span class="lazyload-img-span">        <img              data-src="https://cdn.jsdelivr.net/gh/tangxuchao/tuku/rending.png" >        </sapn>      </p><h2 id="职业道德"><a href="#职业道德" class="headerlink" title="职业道德"></a>职业道德</h2><p>职业怀疑与客观和公正、独立性两项职业道德基本原则密切相关。保持独立性可以增强注册会计师在审计中保持客观和公正、职业怀疑的能力。</p><p>职业怀疑要求客观评价管理层和治理层。<br>（1）由于管理层和治理层为实现预期利润或趋势结果而承受内部或外部压力，即使以前正直、诚信的管理层和治理层也可能发生变化。<br>（2）注册会计师不应依赖以往对管理层和治理层诚信形成的判断。<br>（3）即使注册会计师认为管理层和治理层是正直、诚实的，也不能降低保持职业怀疑的要求，不允许在获取合理保证的过程中满足于说服力不足的审计证据。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CPA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>手机挺好玩的</title>
+      <link href="/2020/07/01/shoujitinghaowan/"/>
+      <url>/2020/07/01/shoujitinghaowan/</url>
+      
+        <content type="html"><![CDATA[<ul><li>昨天又是想死的一天</li><li>但是手机挺好玩的</li><li>改天死吧</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 三行 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>无心斗艳</title>
+      <link href="/2020/06/29/wu-xin-dou-yan/"/>
+      <url>/2020/06/29/wu-xin-dou-yan/</url>
+      
+        <content type="html"><![CDATA[<p>作曲 : 大布<br>作词 : 大布<br>苏泽龙：<br>对着土壤里的我争辩<br>它站在对面如此鲜艳<br>它笑我在众人眼中的妆点<br>遮住了最后道光线<br>对着土壤里的我争辩<br>它站在对面如此鲜艳<br>它笑我在众人眼中的妆点<br>遮住了最后道光线<br>还不是一个人<br>还不是一直等</p><p>又忘了给自己浇水像丢了魂<br>假设那滴水不能够解渴<br>那干嘛不做只野鸽飞着<br>不停地走 为何<br>无心的手 放了<br>固定的酒 醉了<br>附近的人 睡了<br>修复好的花瓶再一次被损坏<br>还好它一直在等待 我知道你在<br>对着土壤里的我争辩<br>它站在对面如此鲜艳<br>它笑我在众人眼中的妆点<br>遮住了最后道光线<br>对着土壤里的我争辩<br>它站在对面如此鲜艳<br>它笑我在众人眼中的妆点<br>遮住了最后道光线<br>客串：<br>艳阳高照后的倾盆大雨<br>来得猛烈些吧从来没怕你<br>倾盆大雨后的艳阳高照<br>这一切都没想象的糟糕</p><p>对着土壤里的我争辩<br>它站在对面如此鲜艳<br>它笑我在众人眼中的妆点<br>遮住了最后道光线<br>对着土壤里的我争辩<br>它站在对面如此鲜艳<br>它笑我在众人眼中的妆点<br>遮住了最后道光线</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>梦者</title>
+      <link href="/2020/06/27/mengzhe/"/>
+      <url>/2020/06/27/mengzhe/</url>
+      
+        <content type="html"><![CDATA[<hr><ul><li>他梦想做个旅行家，去探索这个世界。可最后做了会计，忙着他的事业。<blockquote><p>幸好我的梦想是做一个流浪者，不是探索世界，而是流浪世界。</p><p>然而最后我好像做了会计，但不是忙着我的事业，而是忙着活着。</p></blockquote></li></ul><hr><ul><li>你用借口枪杀自己曾经的梦想，又用现实当作借口对自己撒谎，是你亲手熄灭梦想的光。<blockquote><p>我知道我现在不喜欢我的工作，我也有自己的梦想（多么伟大而可笑的词语），但是我却无从改变，每天自己安慰自己，说这份工作很多人想要都要不来。</p><p>经常询问同龄人找工作的经历，自己内心明白不过是用残酷现实安慰自己（有工作就行了）。怪家里人给我找了这样一份工作，然而自己仔细想想发现这其中也有自己参与。</p></blockquote></li></ul><hr><ul><li>你害怕这条路上被人说三道四；你害怕自己会失败，变得无所事事；你害怕父母反对，没人对你支持。<blockquote><p>我是害怕这些吗？我也不知道。</p><p>人最害怕的不是别人不认识自己，而是我自己都不认识自己。</p></blockquote></li></ul><p>写于2018/9/5 12:31:30 </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

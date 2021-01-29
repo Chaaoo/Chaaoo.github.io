@@ -1,0 +1,302 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>  White主题主页title改为今日诗词 |    清风徐来</title>
+  <!-- 标签页图标 -->
+  
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/tangxuchao/tuku/cloudy-line.png" type="image/x-icon">
+  
+
+  <!-- 图标库 -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- 动画库 -->
+  
+  <!-- css文件 -->
+  
+<link rel="stylesheet" href="/css/white.css">
+
+  <!-- 代码高亮 -->
+  
+    
+      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.1/styles/github.css">
+
+    
+  
+<meta name="generator" content="Hexo 5.1.1"><link rel="alternate" href="/atom.xml" title="清风徐来" type="application/atom+xml">
+</head>
+
+
+<body>
+
+<div class="menu-outer">
+    <div class="menu-inner">
+      <div class="menu-site-name  ">
+        <a href="/">
+          清风徐来
+        </a>
+        
+      </div>
+      <div class="menu-group">
+        <ul class="menu-ul">
+        
+          <a href="/" class="nav-link">
+            <li class="menu-li  ">
+              主页
+            </li>
+          </a>
+        
+          <a href="/archives" class="nav-link">
+            <li class="menu-li  ">
+              文档
+            </li>
+          </a>
+        
+          <a href="/link" class="nav-link">
+            <li class="menu-li  ">
+              他处
+            </li>
+          </a>
+        
+          <a href="/about" class="nav-link">
+            <li class="menu-li  ">
+              关于
+            </li>
+          </a>
+        
+        
+        
+        <a href="/search">
+          <li class="menu-li  ">
+            <i class="ri-search-line"></i>
+          </li>
+        </a>
+        
+          <li class="menu-li " id="mobile-menu">
+            <i class="ri-menu-line"></i>
+          </li>
+        
+        </ul>
+
+      </div>
+
+    </div>
+</div>
+<div id="mobile-main" class="">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-site-name ">
+      <a href="/">
+        清风徐来
+      </a>
+    </div>
+    <div class="mobile-menu-group" id="mobile-close">
+      <i class="ri-close-line"></i>
+    </div>
+
+  </div>
+
+  <div class="mobile-menu-div">
+  
+    <a href="/" class="mobile-nav-link">
+      <div class="mobile-menu-child ">
+        <span>主页</span>
+      </div>
+    </a>
+  
+    <a href="/archives" class="mobile-nav-link">
+      <div class="mobile-menu-child ">
+        <span>文档</span>
+      </div>
+    </a>
+  
+    <a href="/link" class="mobile-nav-link">
+      <div class="mobile-menu-child ">
+        <span>他处</span>
+      </div>
+    </a>
+  
+    <a href="/about" class="mobile-nav-link">
+      <div class="mobile-menu-child ">
+        <span>关于</span>
+      </div>
+    </a>
+  
+  
+    <a href="/search">  
+      <div class="mobile-menu-child  ">
+        <i class="ri-search-line"></i>
+      </div>
+    </a>
+    
+  </div>
+
+
+</div>
+
+<div class="body-outer">
+  <div class="body-inner">
+    
+<article class="post-inner">
+  <div class="post-content-outer">
+    <div class="post-intro">
+      <div class="post-title animate__animated  animate__fadeInUp">White主题主页title改为今日诗词</div>
+      <div class="meta-intro animate__animated  animate__fadeInUp">7月 28 2020</div>
+      
+        <div class="post-cover"><span class="lazyload-img-span"><img data-src="https://cdn.jsdelivr.net/gh/tangxuchao/tuku/%E7%81%B5%E9%AD%82%E8%8E%B2%E5%8D%8E-%E5%85%A8.jpg" class="post-cover-img"></span></div>
+      
+    </div>
+    <div class="post-content-inner">
+      <div class="post-content-inner-space">
+
+      </div>
+      <div class="post-content-main animate__animated  animate__fadeInUp">
+        <!-- top型目录 -->
+        
+        <p>主题源库：<a target="_blank" rel="noopener" href="https://github.com/FuShaoLei/hexo-theme-white">点击进入</a></p>
+<p>DIY前提：自己已经搭建完成。</p>
+<h2 id="一、修改title："><a href="#一、修改title：" class="headerlink" title="一、修改title："></a>一、修改title：</h2><p>将主题_config.yml中：</p>
+<pre><code># 自我介绍
+intro:
+  title: Hi.I&#39;m White.</code></pre>
+<p>改为：</p>
+<pre><code># 自我介绍
+intro:
+  title: &#39;&lt;p id=&quot;jinrishici-sentence&quot;&gt;获取中...&lt;/p&gt;
+&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&#39;</code></pre>
+<h2 id="二、修改引用"><a href="#二、修改引用" class="headerlink" title="二、修改引用"></a>二、修改引用</h2><p>位置：themes/white/layout/_partial/mode-home.ejs</p>
+<p>将：</p>
+<pre><code>&lt;div class=&quot;intro-title animate__animated  animate__fadeInUp&quot;&gt;&lt;%=theme.intro.title%&gt;&lt;/div&gt;
+&lt;div class=&quot;intro-sub animate__animated  animate__fadeInUp&quot;&gt;&lt;%- markdown(theme.intro.sub) %&gt;&lt;/div&gt;</code></pre>
+<p>改为：</p>
+<pre><code>&lt;div class=&quot;intro-title animate__animated  animate__fadeInUp&quot;&gt;&lt;%- markdown(theme.intro.title) %&gt;&lt;/div&gt;
+&lt;div class=&quot;intro-sub animate__animated  animate__fadeInUp&quot;&gt;&lt;%- markdown(theme.intro.sub) %&gt;&lt;/div&gt;</code></pre>
+<h2 id="三：美化title（可选）"><a href="#三：美化title（可选）" class="headerlink" title="三：美化title（可选）"></a>三：美化title（可选）</h2><p>因为有些诗词句子太长会变成两行。</p>
+<p>有两个修改办法：</p>
+<h3 id="1、修改主题宽度。"><a href="#1、修改主题宽度。" class="headerlink" title="1、修改主题宽度。"></a>1、修改主题宽度。</h3><p>将主题_config.yml中：</p>
+<pre><code>style:
+  layout:
+    max-width: &quot;1125px&quot; #最大宽度</code></pre>
+<p>按你自己想法修改（可能影响美观）。</p>
+<h3 id="2、修改title字体大小"><a href="#2、修改title字体大小" class="headerlink" title="2、修改title字体大小"></a>2、修改title字体大小</h3><p>位置：themes/white/source/css/_page/layout.styl中：</p>
+<pre><code>.intro-title 
+  font-family Gothic
+  font-size 3em #修改此处即为字体大小
+  font-weight 1000
+  margin 0
+  padding 0</code></pre>
+<h3 id="3、修改主题布局"><a href="#3、修改主题布局" class="headerlink" title="3、修改主题布局"></a>3、修改主题布局</h3><p>位置：themes/white/source/css/_page/layout.styl</p>
+<pre><code>/* home */
+.intro-content 
+  margin-top 150px
+  width 70% #修改此处，本人为90%</code></pre>
+<p>按你自己想法修改，这三个办法可以综合使用。</p>
+
+        <!-- 分类文章 -->
+        
+        <!-- 评论 -->
+        
+          <!-- valine -->
+          
+            <section id="comments" class="comments" style="margin-top: 150px;">
+              <style>
+                .comments{background:#fff}
+                @media screen and (max-width:900px){.comments{margin:auto;padding:10px;background:#fff}}
+              </style>
+              <div id="vcomment" class="comment"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var notify = 'true' == true ? true : false;
+    var verify = 'false' == true ? true : false;
+    new Valine({
+        av: AV,
+        el: '#vcomment',
+        notify: notify,
+        app_id: "La8AKpeTBgYo3PIHm2IgBxMt-MdYXbMMI",
+        app_key: "xC3OHXm1r8D7JMMQR5rS8vck",
+        placeholder: "留下你来过的痕迹~",
+        avatar:"robohash",
+    });
+</script>
+
+            </section>
+          
+          <!-- Gitalk -->
+          
+          <!-- livere -->
+          
+
+        
+      </div>
+      <div class="post-content-inner-space">
+        
+          <div class="space-toc-main animate__animated  animate__fadeInUp">
+            <ol class="space-toc"><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#%E4%B8%80%E3%80%81%E4%BF%AE%E6%94%B9title%EF%BC%9A"><span class="space-toc-text">一、修改title：</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#%E4%BA%8C%E3%80%81%E4%BF%AE%E6%94%B9%E5%BC%95%E7%94%A8"><span class="space-toc-text">二、修改引用</span></a></li><li class="space-toc-item space-toc-level-2"><a class="space-toc-link" href="#%E4%B8%89%EF%BC%9A%E7%BE%8E%E5%8C%96title%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89"><span class="space-toc-text">三：美化title（可选）</span></a></li></ol>
+           </div>
+        
+      </div>
+   </div>
+  </div>
+</article>
+  </div>
+</div>
+
+
+
+<!-- 如果是home模式的话，不在首页就显示footer，如果不是home模式的话 所有都显示footer -->
+
+  <div class="footer-outer animate__animated  animate__fadeInUp">
+    <div class="footer-inner">
+    <div class="footer-text">
+    <p id="jinrishici-sentence">获取中...</p> <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    </div>
+    <div class="footer-contact">
+    <ul class="footer-ul">
+        
+        <li class="footer-li">
+            <a href="http://www.txca.gq" target="_blank">
+                <i class="ri-home-2-line"></i>
+            </a>
+        </li>
+        
+        <li class="footer-li">
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=894732999&amp;site=qq&amp;menu=yes" target="_blank">
+                <i class="ri-qq-line"></i>
+            </a>
+        </li>
+        
+        <li class="footer-li">
+            <a href="https://github.com/Chaaoo" target="_blank">
+                <i class="ri-github-line"></i>
+            </a>
+        </li>
+        
+    </ul>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="/js/white.js"></script>
+
+
+
+    
+      
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+</body>
+</html>
